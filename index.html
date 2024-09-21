@@ -12,20 +12,72 @@
 
 <body>
     <div class="greetings">
-        <span>H</span>
-        <span>o</span>
-        <span>l</span>
-        <span>a</span>
-        <span>!</span>
+        <span>Ya ome cansón</span>
+        <span>SHDHJSD espero no te moleste,</span>
+        <span>no busco un reencuentro</span>
+        <span>Solo es un pequeño detalle para ti.</span>
+        <span>🌸</span>
+      
     </div>
     <div class="description">
-        <span>ESTE DETALLE ES PARA TI :)</span>
+        <span></span>
     </div>
     <div class="button">
         <button class="botones">
-            <a href="flower.html" style="color: #fff;">CLICK AQUÍ</a>
+            <a href="flower.html" style="color: #19e5a5">SI ME EXTRAÑAS DALE CLICK</a>
+        </button>
+        <button id="noMeExtrañas" class="botones">
+            <a href="flower.html" style="color: #19e5a5">SI NO ME EXTRAÑAS DALE CLICK</a>
         </button>
     </div>
+    <script>
+        const noMeExtrañasBtn = document.getElementById('noMeExtrañas');
+        let clickCount = 0;
+        let scale = 1.0;
+    
+        noMeExtrañasBtn.addEventListener('click', function(event) {
+            event.preventDefault(); // Evita que el enlace navegue a otra página
+            clickCount++;
+            scale -= 0.1; // Reduce el tamaño del botón
+            noMeExtrañasBtn.style.transform = `scale(${scale})`; // Actualiza la transformación del botón
+    
+            switch (clickCount) {
+                case 1:
+                    alert("¿Estás segura? ¿No me extrañas ni un poquito?");
+                    break;
+                case 2:
+                    alert("Vaya, eso dolió... ¿Y si te doy una flor?");
+                    break;
+                case 3:
+                    alert("Ay bueno ya oe cansona");
+                    break;
+                case 4:
+                    alert("¿Soy así de superable?");
+                    break;
+                case 5:
+                    alert("Quiero una ex que esté obsesionada, no que sea unidireccional esta relación de ex");
+                    break;
+                case 6:
+                    alert("Bueno ya oe, el botón no tiene la culpa, ya no molesto");
+                    break;
+                case 7:
+                    alert("...");
+                    break;
+                case 8:
+                    alert("Papu Troliada");
+                    // Ocultar el botón después del último clic
+                    noMeExtrañasBtn.style.opacity = '0';
+                    setTimeout(() => {
+                        noMeExtrañasBtn.style.display = 'none';
+                    }, 300); // Espera para que la transición de opacidad ocurra antes de desaparecer
+                    break;
+                default:
+                    // No hacer nada más
+                    break;
+            }
+        });
+    </script>
+    
 
 </body>
 
