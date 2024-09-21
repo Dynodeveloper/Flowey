@@ -4,10 +4,10 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "un sweater violeta y", time: 20 },
+  { text: "un sweater violeta y", time: 21 },
   { text: "un pantalón de corderoy", time: 23 },
   { text: "la pasó a buscar en su nuevo renault fuego", time: 27 },
-  { text: "sonaban los planetas y la furia de la autopista", time: 31 },
+  { text: "sonaban los planetas y la furia de la autopista", time: 32 },
   { text: "de pronto ya estaba en el auto", time: 36 },
   { text: "y sin apuro preguntó", time: 39 },
   { text: "ey, dónde me llevás", time: 42 },
@@ -19,15 +19,15 @@ var lyricsData = [
   { text: "y ella se quedó pensando", time: 70 },
   { text: "ey, dónde me llevás", time: 72 },
   { text: "y cuánto más vas a tardar", time: 73 },
-  { text: "es que necesito volver a casa para cenar", time: 74 },
-  { text: "puede que no haya un auto y", time: 94 },
-  { text: "que casi todo sea inventado", time: 95 },
-  { text: "es mejor inventar un buen final", time: 97 },
-  { text: "para no poder pensar en...", time: 98 },
-  { text: "ey, dónde te fuiste", time: 99 },
-  { text: "y cuánto más vas a tardar", time: 102 },
-  { text: "es que necesito decirte que en verdad te quiero", time: 104 },
-  { text: "en verdad te quiero <3", time: 105 },
+  { text: "es que necesito volver a casa para cenar", time: 76 },
+  { text: "puede que no haya un auto y", time: 105 },
+  { text: "que casi todo sea inventado", time: 106 },
+  { text: "es mejor inventar un buen final", time: 108 },
+  { text: "para no poder pensar en...", time: 110 },
+  { text: "ey, dónde te fuiste", time: 112 },
+  { text: "y cuánto más vas a tardar", time: 114 },
+  { text: "es que necesito decirte que en verdad te quiero", time: 116 },
+  { text: "en verdad te quiero <3", time: 115 },
 ];
 
 
